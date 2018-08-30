@@ -1,0 +1,4 @@
+<!-- START OF SP-1000 COURSE HTTP EDIT -->
+<Valve className="org.apache.catalina.valves.AccessLogValve" directory="logs"  
+		prefix="http_access." suffix=".log" pattern="%t|%a|%m|%p|%U|%q|%s|%S|%u|%D|%T|%B|%{User-agent}i|%{Referer}i|%A|%{Content-Type}o|%{SPRING_SECURITY_CONTEXT}s" resolveHosts="false"/>
+<!-- END OF SP-1000 COURSE HTTP EDIT -->
