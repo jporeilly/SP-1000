@@ -180,8 +180,7 @@
    <!-- ========================================================= -->
    <!-- Special Log File specifically for Mondrian                -->
    <!-- ========================================================= -->
-
-   
+  
    <appender name="MONDRIAN" class="org.apache.log4j.RollingFileAppender">
      <param name="File" value="C:/Pentaho/server/pentaho-server/logs/mondrian.log"/>
      <param name="Append" value="false"/>
@@ -203,7 +202,6 @@
    <!-- ========================================================= -->
    <!-- Special Log File specifically for Mondrian MDX Statements -->
    <!-- ========================================================= -->
-
   
    <appender name="MDXLOG" class="org.apache.log4j.RollingFileAppender">
      <param name="File" value="../logs/mondrian_mdx.log"/>
@@ -224,7 +222,6 @@
    <!-- ========================================================= -->
    <!-- Special Log File specifically for Mondrian SQL Statements -->
    <!-- ========================================================= -->
-
    
    <appender name="SQLLOG" class="org.apache.log4j.RollingFileAppender">
      <param name="File" value="../logs/mondrian_sql.log"/>
@@ -241,11 +238,11 @@
       <appender-ref ref="SQLLOG"/>
    </category>
   
+  
    <!-- ============================================================ -->
    <!-- Special Log File specifically for Reporting (PRD) & Interactive Reporting SQL Statements -->
    <!-- ============================================================ -->
-   
-   
+      
    <appender name="REPORTING"      class="org.apache.log4j.RollingFileAppender"> 
     <param name="File" value="../logs/reporting.log"/>
 	<param name="Append" value="false"/>
@@ -264,10 +261,10 @@
 	<appender-ref ref="REPORTING"/>	
 	</category>
 
+	
 	<!-- ========================================================= -->  
     <!-- Special Log File specifically for p6spy                   -->  
     <!-- ========================================================= --> 
-
 	
     <appender name="SPYLOG" class="org.apache.log4j.RollingFileAppender">  
      <param name="File" value="C:/Pentaho/server/pentaho-server/logs/spy.log"/>  
