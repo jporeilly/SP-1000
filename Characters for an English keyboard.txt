@@ -11,9 +11,15 @@ Characters from an English keyboard
 
 }
 
+(
+
+)
+
 |
 
 \
+
+/
 
 <
 
@@ -25,10 +31,15 @@ Characters from an English keyboard
 
 $
 
-(
-
-)
 
 '
 
 "
+
+;
+
+=
+
+-
+
+#
