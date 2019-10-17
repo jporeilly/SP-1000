@@ -1,0 +1,22 @@
+	<!-- ======================================================================================== -->
+	<!-- Special Log File specifically for Reporting (PRD) & Interactive Reporting SQL Statements -->
+	<!-- ======================================================================================== -->
+	<appender name="REPORTING" class="org.apache.log4j.RollingFileAppender"> 
+		<param name="File" value="../logs/reporting.log"/>
+		<param name="Append" value="false"/>
+		<layout class="org.apache.log4j.PatternLayout">
+			<param name="ConversionPattern" value="%d %-5p [%c] %m%n"/>
+		</layout>
+	</appender> 
+
+	<category name="org.pentaho.reporting.engine.classic.core.modules.misc.datafactory"> 	
+		<priority value="DEBUG"/>
+		<appender-ref ref="REPORTING"/>	
+	</category>
+	
+		<category name="org.pentaho.metadata"> 	
+		<priority value="TRACE"/>
+		<appender-ref ref="REPORTING"/>	
+	</category>
+
+
